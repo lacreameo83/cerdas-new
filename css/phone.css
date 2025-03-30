@@ -22,7 +22,7 @@ display: none;
 }
 
 .Navbar {
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 .Navbar_menuicon {
@@ -45,7 +45,7 @@ display: none;
 }
 
 .maincontainer_second {
-    height: 250px;
+    height: 500px;
 }
 .maincontainer_logo_images  img {
     width: 41px;
@@ -110,10 +110,17 @@ display: none;
             padding: 40px 20px;
             gap: 40px;
         }
+        .chooseCourse-firstgrid div  {
+           width: 100%;
+        }
 
         
         .chooseCourse-secondgrid-p {
             font-size: 36px;
+        }
+
+        .chooseCourse-secondgrid-step {
+            width: 80px;
         }
 
         /* community  */
@@ -174,4 +181,35 @@ display: none;
     
 }
 
+/* footer */
 
+.footer-firstgird {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-container {
+    justify-items: center;
+}
+
+.footer-firstgird-div1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-secodgrid {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-secodgrid {
+    flex-direction: column;
+}
+
+.footer-secodgrid-div1-img {
+    width: 80px;
+}
+
+.footer-firstgird-div1 p {
+text-align: center;
+}

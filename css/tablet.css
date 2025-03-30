@@ -78,6 +78,9 @@
             font-size: 36px;
         }
 
+         .chooseCourse-secondgrid-step {
+            width: 80px;
+        }
 
 
          /* community  */
@@ -118,4 +121,19 @@
 
 .newoppunity-second {
     gap: 40px;
+}
+
+
+/* footer */
+
+.footer-container {
+    padding: 15px;
+}
+
+.footer-secodgrid {
+    padding: 15px;
+}
+
+.footer-secodgrid {
+    padding: 15px;
 }
