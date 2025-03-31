@@ -9,6 +9,13 @@
 }
 
 
+.smallscreen-text-heads {
+     font-size: 20px;
+    line-height: 120%;
+    /* background-color: #68ED83; */
+    /* color: #0567FE; */
+}
+
 .display_none_phone {
 display: none;
 }
@@ -33,6 +40,13 @@ display: none;
 
 /* herosection */
 
+.maincontainer_first {
+    justify-content: center;
+    align-items: center;
+}
+.maincontainer_first_P,.maincontainer_first_P2 {
+    text-align: center;
+}
 .maincontainer {
     grid-template-columns: 1fr;
     padding: 40px 20px;
@@ -40,7 +54,7 @@ display: none;
 }
 
 .maincontainer_first_P {
-    font-size: 35px;
+      font-size: 25px;
     line-height: 120%;
 }
 
@@ -69,6 +83,13 @@ display: none;
 .about-cerdas-section {
     gap: 40px;
     
+
+
+}
+
+
+.about-cerdas-section-firstgird > div {
+height: fit-content;
 }
 .about-cerdas-section-secondgird {
     height: 632px;
@@ -79,6 +100,23 @@ display: none;
       
  }
 
+ .about-cerdas-section-secondgird {
+    /* background-color: aqua; */
+    justify-content: center;
+     align-items: center;
+ }
+
+  .about-cerdas-section-secondgird-p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 120%;
+   
+  }
+
+
+
+/* trading section */
+
   .trading-section-container > p:nth-child(2) {
     font-size: 20px;
     line-height: 120%;
@@ -86,11 +124,13 @@ display: none;
  }
 
 
- /* trading section */
+ 
 
  .group-contects-script  {
     grid-template-columns: 1fr;
  }
+
+
 
  
   /* Why choose us */
@@ -102,7 +142,15 @@ display: none;
   .whychooseus-second {
     height: 689px;
   }
+   .whychooseus-firstgrid-p {
+            text-align: center;
+              font-size: 25px;
+    line-height: 120%;
+        }
 
+        .whychooseus-firstgrid-p23 {
+            text-align: center;
+        }
 
   /* chooseCourse */
  .chooseCourse-container {
@@ -110,13 +158,32 @@ display: none;
             padding: 40px 20px;
             gap: 40px;
         }
+
+        .whychooseus-firstgrid {
+ align-items: center;
+ justify-content: center;
+        }
+
+     
+
+        .chooseCourse-secondgrid {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chooseCourse-secondgrid-p {
+            text-align: center;
+        }
         .chooseCourse-firstgrid div  {
            width: 100%;
         }
 
         
         .chooseCourse-secondgrid-p {
-            font-size: 36px;
+              font-size: 25px;
+    line-height: 120%;
         }
 
         .chooseCourse-secondgrid-step {
@@ -138,7 +205,8 @@ display: none;
     text-align: center;
 }
         .community-firstgrid-p {
-            font-size: 36px;
+            font-size: 25px;
+            line-height: 120%;
         }
 
          .community-secondgrid {
@@ -170,9 +238,14 @@ display: none;
 
 .newoppunity-second p:first-child {
    
-    font-size: 34px;
+      font-size: 25px;
+    line-height: 120%;
     
 
+}
+.newoppunity-firstgrid-p {
+    font-size: 25px;
+    line-height: 120%;
 }
 
 .newoppunity-second p:last-child {
@@ -213,3 +286,10 @@ display: none;
 .footer-firstgird-div1 p {
 text-align: center;
 }
+
+.about-cerdas-section-secondgird-p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 120%;
+   
+  }

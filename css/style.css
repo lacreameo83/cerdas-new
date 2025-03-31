@@ -340,7 +340,7 @@ a , li {
 }
 
 .about-cerdas-section-firstgird div:first-child p:nth-child(2) {
-    color: #556276;
+    color: var(--gray-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
@@ -374,6 +374,8 @@ a , li {
     display: flex;
     flex-direction: column;
   justify-content: space-around;
+  
+  gap: 10px;
 }      
 
  .about-cerdas-section-secondgird > button {
@@ -385,7 +387,7 @@ a , li {
     border: transparent;
  }
 
- .about-cerdas-section-secondgird p:nth-child(2) {
+ .about-cerdas-section-secondgird-p {
     font-size: 46px;
     line-height: 140%;
     color:var(--black-color) ;
@@ -453,8 +455,9 @@ a , li {
  }
 
  .trading-courses-container {
-    width: 360px;
+    max-width: 360px;
     /* height: 434px; */
+    height: fit-content;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
