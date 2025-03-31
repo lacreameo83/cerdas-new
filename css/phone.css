@@ -9,6 +9,76 @@
 }
 
 
+
+#navToggle-list {
+            display: none;
+            background-color:var(--background-color);
+            height: 100vh;
+            width: 59vw;
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            color: var(--secondary-color);
+             transition: left 0.3s ease-in-out;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+            border-right: 1px solid var(--secondary-color);
+}
+       
+
+        #navToggle-list.open {
+            display: block;
+        }
+
+ol li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    /* font-size: 20px; */
+    cursor: pointer;
+    
+}
+
+
+#menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#navToggle-list button {
+    padding: 0 5px;
+}
+
+.navToggle-list-div {
+    width: full;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.navToggle-list-div-2 {
+    margin-top: 20px;
+}
+
+.navToggle-list-btn  {
+padding: 10px 20px;
+}
+
+
+/* .nav-toggle.open */
+
+
+
 .smallscreen-text-heads {
      font-size: 20px;
     line-height: 120%;
@@ -90,9 +160,11 @@ display: none;
 
 .about-cerdas-section-firstgird > div {
 height: fit-content;
+/* background-color: #68ED83; */
 }
 .about-cerdas-section-secondgird {
-    height: 632px;
+    height: fit-content;
+    padding: 10px;
 }
 
  .trading-section-container {

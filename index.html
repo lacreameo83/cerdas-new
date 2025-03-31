@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cerdas</title>
+      <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -38,9 +39,31 @@
         <button class="Nav_Signup hover">Sign Up</button>
     </div>
 
-    <div class="Navbar_menuicon">
+    <div id="menubar" onclick="toggleMenu()" class="Navbar_menuicon">
         <i class="fa-solid fa-bars"></i>
     </div>
+
+    <div id="navToggle-list">
+        <div class="navToggle-list-div">
+            <img class="Navbar_icon"  src="images/Logo.png" alt="logo">
+            <button onclick="handlemenuclose()" id="close-btn">&times;</button>
+        </div>
+        
+        <ol>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ol>
+
+        <div class="navToggle-list-div navToggle-list-div-2 ">
+             <button style="padding: 10px 20px;" class="Nav_login hover  navToggle-list-btn">Login</button>
+        <button style="padding:10px ;" class="Nav_Signup hover  navToggle-list-btn">Sign Up</button>
+        </div>
+
+    </div>
+
   </nav>
 
 
@@ -806,6 +829,6 @@ DMSans">Aliquet dignissim erat habitasse aliquet tincidunt phasellus ultrices.</
  </footer>
 
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

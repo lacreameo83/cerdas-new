@@ -27,6 +27,14 @@ body {
    color: var(--primary-color);
 }
 
+#navToggle-list {
+    display: none;
+    background-color: #68ED83;
+    height: 40px;
+    width: full;
+    z-index: 1000;
+}
+
 
 a , li {
     list-style: none;
